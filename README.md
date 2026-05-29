@@ -14,4 +14,5 @@ So far here's what i manage to do:
 - Added 40+ missing register definitions: `SYS_SDIO_CTRL`, `HCI_OPT_CTRL`, `PS_CTRL`, `TX_ADDRESS_INFO_MODE`, `PKTIN_SETTING`, etc.
 - Property-based debugging via IORegistry (no IOLog visible on 13+ without dev account)
 - Identified root block: DMA engine never fetches BD — HW read pointer stays at 0 after doorbell write, despite correct BD format, ring address, and channel config
+
 This project set me back for few weeks btw
