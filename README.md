@@ -1,4 +1,5 @@
 # Unfinished-Realtek-Wifi-Driver-macOS-
+# NOTE: this project is reversed engineering from linux source code so expect some issue and also there's a bit of "vibecoding" (not too much) in this project by opencode
 This is a unfinised version of Realtek WiFi driver that I made, you can use this repo and try to continue my project. I cannot continue my project due to school and a bunch of work, feel free to ask me anything. If you manage to get it work then please contact me, thank you.
 So far here's what i manage to do:
 - Ported Linux rtw89 PCIe DMA initialization sequence to macOS IOKit kext
